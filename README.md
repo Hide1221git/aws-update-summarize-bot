@@ -61,3 +61,17 @@ Github Actionsで動く、pythonスクリプトから参照するため、Github
 
 公式：https://docs.github.com/ja/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions
 
+
+# テストをしたいとき
+Github Acrionsが手動で動かせるようになっています。
+
+![run-manual](./run-manual.png)
+
+ここでシステム全体のテストができます。
+
+プロンプトの調整をしたいときは、ローカルにPythonスクリプトを新規で作成してください。
+
+その中で必要パッケージとapikeyを埋め込み、標準で出力すれば調整できます。
+（もっと楽な方法があれば、教えてくださると助かります）
+
+
